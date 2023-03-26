@@ -1,2 +1,2 @@
-# Appie-App---Landing-page
+# Appie-App-Landing-page
 Landing-page
