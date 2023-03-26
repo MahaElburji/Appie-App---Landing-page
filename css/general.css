@@ -1,0 +1,72 @@
+/* -Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 44 / 52 / 62 / 74 / 86 / 98 */
+/* 
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 /128 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #505056;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #0e1133;
+}
+.container {
+  max-width: 120rem;
+  padding: 1.5rem 1.5rem;
+  margin: auto auto;
+}
+a{
+  text-decoration: none;
+}
+/* .btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0 1.6rem;
+  border-radius: 9px;
+color: #aaa;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+} */
+.index-4 {
+  z-index: 4;
+}
+.index-3 {
+  z-index: 3;
+}
+.index-2 {
+  z-index: 2;
+}
+.align-items {
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
